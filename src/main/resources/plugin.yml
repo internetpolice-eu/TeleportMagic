@@ -1,0 +1,10 @@
+name: TeleportMagic
+main: eu.internetpolice.tpm.TeleportMagic
+version: ${project.version}
+author: "internetpolice.eu"
+api-version: "1.16"
+commands:
+  teleportmagic:
+    description: Reloads TeleportMagic
+    usage: /teleportmagic
+    aliases: [tpm]
