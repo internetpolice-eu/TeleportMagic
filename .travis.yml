@@ -17,6 +17,6 @@ before_deploy:
 deploy:
   - provider: script
     skip_cleanup: true
-    script: bash scripts/deploy-staging.sh
+    script: bash scripts/deploy-release.sh
     on:
       branch: master
